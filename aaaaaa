@@ -1,0 +1,20 @@
+function IFUCKINGHATEELITE()
+syn.request({
+    Url = "nigger",
+    Method = "POST",
+    Headers = {
+        ["Content-Type"] = "application/json",
+    },
+    Body = game:GetService("HttpService"):JSONEncode({
+        embeds = {
+            {
+                ["title"] = "Execution Log",
+                ["description"] = "**Name :**\n" .. "```" .. game:GetService("Players").LocalPlayer.Name .. "```" .. "\n**UserId :** \n".. "```" .. game:GetService("Players").LocalPlayer.UserId .. "```",
+                ["color"] = tonumber(0xFFFAFA),
+            },
+        },
+    }),
+})
+end
+
+IFUCKINGHATEELITE()
